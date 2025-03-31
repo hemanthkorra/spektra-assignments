@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Cars - Product Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="product_landing.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Luxury Cars</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="434584.jpg" class="d-block w-100" alt="No image">
+              </div>
+              <div class="carousel-item">
+                <img src="futuristic-white-super-car-wallpaper_675932-797.jpg" class="d-block w-100" alt="No image">
+              </div>
+              <div class="carousel-item">
+                <img src="6bd7ba82ebaa76a41efccb07bdda5072.jpg" class="d-block w-100" alt="No image">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+            <h2 class="hero-text">Drive the Dream - Experience Luxury Like Never Before</h2>
+            <a href="#hero" class="btn btn-warning btn-lg mt-3">Book a Test Drive</a>
+        </div>
+    </section>
+
+    <section id="features" class="container-fluid py-5">
+        <h2 class=" text-center mb-5 " style="color: wheat;">Main Features</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <div class="feature-icon mb-3">🛋️</div>
+                        <h5 class="card-title">Elegant and Modern Interior Design</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <div class="feature-icon mb-3">🛡️</div>
+                        <h5 class="card-title">Cutting-edge Safety Features</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <div class="feature-icon mb-3">🚗</div>
+                        <h5 class="card-title">Powerful and Efficient Engine</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <div class="feature-icon mb-3">📡</div>
+                        <h5 class="card-title">Smart Navigation and Infotainment System</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <div class="feature-icon mb-3">🌿</div>
+                        <h5 class="card-title">Eco-friendly Fuel Efficiency</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="mb-5">What Our Customers Say</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="testimonial">"Absolutely stunning car! The performance and comfort are unmatched." - <strong>Michael Lee</strong></p>
+                </div>
+                <div class="col-md-4">
+                    <p class="testimonial">"Luxury at its best. Safe, stylish, and powerful!" - <strong>Emma Wilson</strong></p>
+                </div>
+                <div class="col-md-4">
+                    <p class="testimonial">"A perfect combination of technology and elegance. Highly recommend!" - <strong>David Johnson</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input typ
+                            
+                            e="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Write your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning w-100">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p>Email: <a href="mailto:luxurycars@gmail.com">luxurycars@gmail.com</a></p>
+                <p>Phone: +91 98765 43210</p>
+                <p>Follow us on: 
+                    <a href="https://facebook.com" target="_blank">Facebook</a> | 
+                    <a href="https://twitter.com" target="_blank">Twitter</a> | 
+                    <a href="https://instagram.com" target="_blank">Instagram</a>
+                </p>
+                <p>&copy; 2024 Luxury Cars. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

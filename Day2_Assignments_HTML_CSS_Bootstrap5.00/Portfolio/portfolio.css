@@ -1,0 +1,293 @@
+body {
+    background: url('323159-green-forest-wallpaper.jpg') center/cover no-repeat fixed;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url('96462.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* Discover Section */
+/* Discover Section - Fully Transparent */
+.discover-section {
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+    background: transparent; /* Fully transparent background */
+}
+
+/* Anchor styled like button */
+.discover-section a.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 1rem;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.discover-section a.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Advanced Image Collage with Layered Effects */
+.image-collage-advanced {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.image-collage-advanced .img {
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease;
+    object-fit: cover;
+}
+
+/* Individual image positioning */
+.image-collage-advanced .img1 {
+    width: 250px;
+    height: 350px;
+    top: 50px;
+    left: 5%;
+    z-index: 1;
+}
+
+.image-collage-advanced .img2 {
+    width: 200px;
+    height: 300px;
+    top: 100px;
+    left: 20%;
+    z-index: 2;
+}
+
+.image-collage-advanced .img3 {
+    width: 400px;
+    height: 450px;
+    top: 20px;
+    left: 40%;
+    z-index: 3;
+}
+
+.image-collage-advanced .img4 {
+    width: 200px;
+    height: 300px;
+    top: 120px;
+    left: 65%;
+    z-index: 2;
+}
+
+.image-collage-advanced .img5 {
+    width: 250px;
+    height: 350px;
+    top: 60px;
+    left: 80%;
+    z-index: 1;
+}
+
+.image-collage-advanced .img6 {
+    width: 150px;
+    height: 200px;
+    bottom: 10px;
+    left: 35%;
+    z-index: 2;
+}
+
+/* Hover effect */
+.image-collage-advanced .img:hover {
+    transform: scale(1.1);
+    z-index: 5;
+}
+
+
+/* About Section */
+/* About Section */
+.about-section {
+    position: relative;
+    padding: 100px 20px;
+    background: url('back7.webp') center/cover no-repeat fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+}
+
+/* Transparent dark blue overlay without blur */
+.about-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 18, 42, 0.6); /* Dark blue transparent */
+    z-index: 1;
+    border-radius: 20px; /* Match rounded corners */
+}
+
+/* Content on top of overlay */
+.about-content {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+}
+
+/* Photographer Image Box */
+.about-image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* Photographer Name */
+.photographer-name {
+    font-family: 'Georgia', serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Photographer Info */
+.photographer-info {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+/* Learn More Button */
+.learn-more-btn {
+    padding: 12px 30px;
+    font-size: 1rem;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.learn-more-btn:hover {
+    background-color: white;
+    color: darkblue;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .photographer-name {
+        font-size: 2.5rem;
+    }
+
+    .photographer-info {
+        font-size: 1rem;
+    }
+}
+
+
+/* Gallery */
+/* Gallery Section Adjustments */
+.gallery-img {
+    width: 100%;
+    height: 250px; /* Adjust height as needed */
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .gallery-img {
+        height: 200px;
+    }
+}
+
+/* Contact */
+/* Contact Section - Solid background with transition */
+#contact {
+    background: rgba(255, 255, 255, 0.95); /* Solid light background */
+    color: black; /* Dark text for contrast */
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    padding: 50px 30px;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Form Inputs and Textarea */
+#contact input, 
+#contact textarea {
+    margin-bottom: 20px;
+    background: white;
+    border: 2px solid #ddd;
+    padding: 12px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    color: black;
+}
+
+/* Input Focus Effect */
+#contact input:focus, 
+#contact textarea:focus {
+    border-color: darkblue;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.3);
+}
+
+/* Submit Button with Hover Effect */
+#contact button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 50px;
+    border: none;
+    background: darkblue;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Button Hover */
+#contact button:hover {
+    background-color: black;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+footer a {
+    color: #bbb;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+footer a:hover {
+    color: white;
+}

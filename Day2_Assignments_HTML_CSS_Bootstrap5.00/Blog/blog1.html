@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Blog Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="blog1.css"> <!-- External CSS file -->
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div style="margin: 30px;"><hr/></div>
+
+    <!-- Blog Section with Sidebar (Swapped) -->
+    <div class="container my-5 blog-section">
+        <div class="row align-items-start h-100">
+            <!-- Blog Cards (Left Side) -->
+            <section class="col-lg-9 mb-4">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card glass-card h-100">
+                            <div class="card-body">
+                                <h3>Exploring Modern Art</h3>
+                                <p><em>March 10, 2025</em></p>
+                                <p>Discover how modern art influences daily life and design. Modern art is more than just a visual experience — it's a reflection of contemporary society, a response to political events, and a mirror to the human soul. Unlike classical art forms, modern art embraces experimentation, abstraction, and breaking away from traditional techniques <a href="#" style="color: aliceblue;"><i>Read more</i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card glass-card h-100">
+                            <div class="card-body">
+                                <h3>Architecture Trends 2025</h3>
+                                <p><em>March 8, 2025</em></p>
+                                <p>In 2025, architecture is embracing sustainability, innovation, and human-centered design like never before. With rapid urbanization and environmental concerns, architects are focusing on creating eco-friendly, adaptive spaces that blend technology and nature. From vertical gardens on skyscrapers <a href="#" style="color: aliceblue;"><i>Read more</i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card glass-card h-100">
+                            <div class="card-body">
+                                <h3>Photography Tips for Beginners</h3>
+                                <p><em>March 5, 2025</em></p>
+                                <p>Starting your journey in photography can feel overwhelming, but with a few simple tips, you can quickly improve the quality of your shots. One of the first and most important steps is to understand your camera. Whether you're using a smartphone or a DSLR, learning how to control settings like shutter speed, aperture, and ISO will give you greater creative control over your photos. <a href="#" style="color: aliceblue;"><i>Read more</i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sidebar (Right Side, Merged) -->
+            <aside class="col-lg-3">
+                <div class="glass-sidebar mb-4">
+                    <h4>Search</h4>
+                    <form class="d-flex mt-3">
+                        <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                        <button class="btn btn-dark" type="submit">Go</button>
+                    </form>
+                </div>
+                <div class="glass-sidebar">
+                    <h4>Recent Posts</h4>
+                    <ul class="list-unstyled mt-3">
+                        <li><a href="#">Exploring Modern Art</a></li>
+                        <li><a href="#">Architecture Trends 2025</a></li>
+                        <li><a href="#">Photography Tips</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>Contact: myblog@example.com | +91 98765 43210</p>
+        <p>
+            Follow us:
+            <a href="#" class="text-warning">Facebook</a> |
+            <a href="#" class="text-warning">Twitter</a> |
+            <a href="#" class="text-warning">Instagram</a>
+        </p>
+        <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

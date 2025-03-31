@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="recipe.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-5" style="background-image: url('greek-cooking-recipe-lettuce-wallpaper.jpg');">
+        <h1>Delicious Recipes</h1>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: transparent;">
+            <a class="navbar-brand text-white" href="#">Recipes</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#recipes">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#categories">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+    </header>
+
+    <!-- Recipe Section -->
+    <section id="recipes" class="container-fluid my-5">
+        <h2 class="text-center">Our Recipes</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://th.bing.com/th/id/OIP.gkhdDE-kBhBHGQeVmKo7_AHaEo?w=290&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="card-img-top" alt="Recipe 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Pancakes</h5>
+                        <h6>Ingredients:</h6>
+                        <p>Flour, Milk, Eggs, Sugar, Baking Powder</p>
+                        <h6>Instructions:</h6>
+                        <p>Mix ingredients and cook on a skillet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://th.bing.com/th/id/OIP.8tMsL72oZrPtN1kjlmKabQHaE8?w=208&h=139&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="card-img-top" alt="Recipe 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Caesar Salad</h5>
+                        <h6>Ingredients:</h6>
+                        <p>Lettuce, Croutons, Caesar Dressing, Parmesan</p>
+                        <h6>Instructions:</h6>
+                        <p>Toss all ingredients together and serve.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://th.bing.com/th/id/OIP.3HyNVSW8zkIeTKP2iHY7IwHaE8?w=208&h=139&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="card-img-top" alt="Recipe 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Spaghetti Bolognese</h5>
+                        <h6>Ingredients:</h6>
+                        <p>Spaghetti, Ground Beef, Tomato Sauce, Onion, Garlic</p>
+                        <h6>Instructions:</h6>
+                        <p>Cook spaghetti and mix with sauce and meat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://th.bing.com/th/id/OIP.wZYTqr9PZPlPpbsSN1PxmgHaE8?w=208&h=139&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="card-img-top" alt="Recipe 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Chicken Curry</h5>
+                        <h6>Ingredients:</h6>
+                        <p>Chicken, Curry Powder, Coconut Milk, Vegetables</p>
+                        <h6>Instructions:</h6>
+                        <p>Cook chicken with spices and add coconut milk.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://th.bing.com/th/id/OIP.vY8_eXDnVSnP4_ZFLyD01QHaEo?w=244&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="card-img-top" alt="Recipe 5">
+                    <div class="card-body ">
+                        <h5 class="card-title">Chocolate Cake</h5>
+                        <h6>Ingredients:</h6>
+                        <p>Flour, Cocoa Powder, Sugar, Eggs, Butter</p>
+                        <h6>Instructions:</h6>
+                        <p>Mix ingredients and bake in the oven.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center" style="color: black;">Recipe Categories</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Breakfast</li>
+                <li class="list-group-item">Lunch</li>
+                <li class="list-group-item">Dinner</li>
+                <li class="list-group-item">Desserts</li>
+                <li class="list-group-item">Snacks</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5">
+        <h2 class="text-center" style="color: white;">Submit Your Recipe</h2>
+        <form>
+            <div class="form-group">
+                <label for="recipeName">Recipe Name</label>
+                <input type="text" class="form-control" id="recipeName" placeholder="Enter recipe name">
+            </div>
+            <div class="form-group">
+                <label for="ingredients">Ingredients</label>
+                <textarea class="form-control" id="ingredients" rows="3" placeholder="List ingredients"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="instructions">Instructions</label>
+                <textarea class="form-control" id="instructions" rows="3" placeholder="Describe the instructions"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit Recipe</button>
+        </form>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

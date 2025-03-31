@@ -1,0 +1,180 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: wheat;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    position: relative;
+    min-height: 200px; /* Reduced from 300px */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    font-size: 2.5rem; /* Reduced from 3rem */
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px; /* Added margin for spacing */
+}
+
+/* Navbar */
+.navbar {
+    background-color: transparent !important;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+/* Our Recipes Section */
+#recipes {
+    background-color: black;
+}
+
+#recipes h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #fff; 
+    position: relative;
+    font-weight: bold; 
+}
+
+#recipes h2::after {
+    content: '';
+    width: 80px;
+    height: 4px;
+    background: #ff5722;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; 
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    background-color: rgba(255, 255, 255, 0.9); 
+}
+
+
+.card-title {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Recipe Categories Section */
+#categories {
+    background-color: black;
+}
+
+#categories h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #fff; 
+    position: relative;
+    font-weight: bold; 
+}
+
+#categories h2::after {
+    content: '';
+    width: 100px;
+    height: 4px;
+    background: #009688;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+.list-group-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.list-group-item:hover {
+    background-color: #009688;
+    color: #fff;
+}
+
+/* Submit Recipe Form Section */
+#contact {
+    padding: 60px 0;
+    background: url('back3.jpg') no-repeat center center; /* Add your background image */
+    background-size: cover; /* Cover the entire section */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.5s ease; /* Transition for background color */
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333; /* Change text color for better contrast */
+    position: relative;
+    font-weight: bold; /* Added bold for emphasis */
+}
+#contact h2::after {
+    content: '';
+    width: 140px;
+    height: 4px;
+    background: #3f51b5;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background for form */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; /* Added transition */
+}
+
+form:hover {
+    transform: scale(1.02); /* Slightly scale up on hover */
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: #3f51b5;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #303f9f;
+}

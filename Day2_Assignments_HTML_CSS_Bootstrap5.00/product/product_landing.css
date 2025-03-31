@@ -1,0 +1,29 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+}
+
+
+.feature-icon {
+    font-size: 3rem;
+}
+
+
+.testimonial {
+    font-style: italic;
+}
+
+footer a {
+    color: yellow;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}
+
+#features{
+   background-image: url("download.jpg");
+   background-size: cover;
+}
+
