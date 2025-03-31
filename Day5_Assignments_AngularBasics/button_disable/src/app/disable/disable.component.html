@@ -1,0 +1,8 @@
+<div class="container mt-4">
+    <h1 class="text-primary">Button Disable Example</h1>
+    <form>
+        <label class="form-label">Text:</label>
+        <input type="text" [(ngModel)]="text" name="textInput" (input)="check()" class="form-control" placeholder="Enter any text" />
+        <button [disabled]="val" class="btn btn-primary mt-2">Submit</button>
+    </form>
+</div>

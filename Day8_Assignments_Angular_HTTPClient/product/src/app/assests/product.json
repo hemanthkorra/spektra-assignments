@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": "37b3",
+      "name": "Dell Inspiron 15",
+      "price": 70000,
+      "imageUrl": "https://m.media-amazon.com/images/I/71+0g7rK0JL._AC_SL1500_.jpg"
+    },
+    {
+      "id": "e54b",
+      "name": "watch",
+      "price": 5000,
+      "imageUrl": "https://n2.sdlcdn.com/imgs/j/e/w/FASTAG-FT-7025-Metal-Analog-SDL533296052-1-31005.jpg"
+    },
+    {
+      "id": "04ba",
+      "name": "Oneplus Z2 buds",
+      "price": 5000,
+      "imageUrl": "https://www.penguin.com.bd/wp-content/uploads/2021/11/2.png"
+    },
+    {
+      "id": "8900",
+      "name": "Iphone 16pro",
+      "price": 70000,
+      "imageUrl": "https://static1.xdaimages.com/wordpress/wp-content/uploads/2023/09/iphone-16-pro-hero-page.jpg"
+    },
+    {
+      "id": "69f4",
+      "name": "Oneplus Z2 Neckbands",
+      "price": 1500,
+      "imageUrl": "https://th.bing.com/th/id/OIP.cwllOu242lxRHbvNjN_yIgHaHa?rs=1&pid=ImgDetMain"
+    }
+  ]
+}

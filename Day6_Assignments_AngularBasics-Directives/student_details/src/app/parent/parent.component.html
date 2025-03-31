@@ -1,0 +1,30 @@
+<p>Parent Component</p>
+
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Gender</th>
+      <th>Age</th>
+      <th>Course Fee</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (student of students; track student.id) {
+      <tr>
+        <td>{{ student.id }}</td>
+        <td>{{ student.name }}</td>
+        <td>{{ student.gender }}</td>
+        <td>{{ student.age }}</td>
+        <td>{{ student.coursefee }}</td>
+      </tr>
+    } @empty {
+      <tr>
+        <td colspan="5">No students available.</td>
+      </tr>
+    }
+  </tbody>
+</table>
+<app-child [C_malestudents]="malestudents" [C_femalestudents]="femalestudents" [C_totalstudents]="totalstudents"></app-child>

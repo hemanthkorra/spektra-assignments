@@ -1,0 +1,27 @@
+<h1>Switch Demo</h1>
+<div>
+  <label for="country-select">Choose a country:</label>
+  <select id="country-select" [(ngModel)]="selectedCountry">
+    <option value="">Select a country</option>
+    <option value="India">India</option>
+    <option value="China">China</option>
+    <option value="Korea">Korea</option>
+  </select>
+</div>
+
+@switch (selectedCountry) {
+  @case ('India') {
+    <div>You have selected: India</div>
+  }
+  @case ('China') {
+    <div>You have selected: China</div>
+  }
+  @case ('Korea') {
+    <div>You have selected: Korea</div>
+  }
+  @default {
+    <div>Please select a country.</div>
+  }
+}
+
+<router-outlet></router-outlet>

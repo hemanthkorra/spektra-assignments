@@ -1,0 +1,17 @@
+<div class="container mt-4">
+    <h2 class="text-center">📦 Product Details</h2>
+
+    @if (product) {
+      <div class="card mx-auto mt-3" style="max-width: 400px;">
+        <img [src]="product.imageUrl" alt="{{ product.name }}" class="card-img-top img-fluid">
+        <div class="card-body text-center">
+          <h5 class="card-title">{{ product.name }}</h5>
+          <p class="card-text"><strong>Price:</strong> ${{ product.price }}</p>
+          <p class="card-text"><strong>Description:</strong> {{ product.description }}</p>
+          <a routerLink="/" class="btn btn-primary">Back to List</a>
+        </div>
+      </div>
+    } @else {
+      <p class="text-danger text-center">Product not found.</p>
+    }
+  </div>

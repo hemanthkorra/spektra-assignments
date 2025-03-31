@@ -1,0 +1,7 @@
+.img-fluid {
+    height: 300px; 
+    object-fit: contain; /* Ensures the full image is visible */
+    width: 100%;
+    border-radius: 5px;
+  }
+  

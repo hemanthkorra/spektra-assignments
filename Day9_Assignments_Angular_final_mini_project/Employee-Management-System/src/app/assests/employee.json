@@ -1,0 +1,84 @@
+{
+  "employees": [
+    {
+      "id": "4",
+      "name": "Ram",
+      "role": "Project Manager",
+      "department": "Management",
+      "achievements": "Successfully led 5 projects",
+      "email": "Ram@example.com",
+      "phno": "123456789",
+      "imageUrl": "https://wallpaper-house.com/data/out/12/wallpaper2you_557219.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Prabhas",
+      "role": "DevOps Engineer",
+      "department": "Infrastructure",
+      "achievements": "Implemented CI/CD pipelines",
+      "email": "davidwilson@example.com",
+      "phno": "9876543214",
+      "imageUrl": "https://stylesatlife.com/wp-content/uploads/2021/06/Telugu-Actor-Male-Prabhas.jpg"
+    },
+    {
+      "id": "6",
+      "name": " Hebah Patel",
+      "role": "Frontend Developer",
+      "department": "Development",
+      "achievements": "Created a new UI component library",
+      "email": "HebahPatel@example.com",
+      "phno": "9876543215",
+      "imageUrl": "https://www.southindiafashion.com/wp-content/uploads/2021/08/Hebah-Patel-in-red-saree-by-issa-studio-2.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Sreeleela",
+      "role": "Data Scientist",
+      "department": "AI & Data",
+      "achievements": "Developed a predictive model",
+      "email": "Sreeleela@example.com",
+      "phno": "9876543216",
+      "imageUrl": "https://www.m9.news/wp-content/uploads/2023/08/Sreeeela-Fans.jpg"
+    },
+    {
+      "id": "8",
+      "name": " Ramcharan",
+      "role": "HR Manager",
+      "department": "Human Resources",
+      "achievements": "Hired 50+ top talents",
+      "email": "Ramcharan@example.com",
+      "phno": "9876543217",
+      "imageUrl": "https://w0.peakpx.com/wallpaper/404/436/HD-wallpaper-ramcharan-actor-movies-ram-charan-ram-charan-tej-rrr-telugu-actor-charan-telugu-movies-bollywood-ram.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Nandamuri Balakrishna",
+      "role": "Cyber Security Analyst",
+      "department": "Security",
+      "achievements": "Prevented 5 major security breaches",
+      "email": "NandamuriBalakrishna@example.com",
+      "phno": "9876543218",
+      "imageUrl": "https://i.indiglamour.com/photogallery/telugu/actor/2016/Mar25-z/Balakrishna/normal/Balakrishna_1028.jpg"
+    },
+    {
+      "id": "10",
+      "name": " Sai Pallavi",
+      "role": "Business Analyst",
+      "department": "Business Intelligence",
+      "achievements": "Improved business processes by 20%",
+      "email": "SaiPallavi@example.com",
+      "phno": "9876543219",
+      "imageUrl": "https://i.pinimg.com/originals/94/fe/a5/94fea544256a56a83b79604b4927ee75.jpg"
+    },
+    {
+      "id": "50ed",
+      "name": "Nithin",
+      "role": "Developer",
+      "department": "Technical",
+      "achievements": "GOAT",
+      "email": "Nithin@gmail.com",
+      "phno": "123456789",
+      "imageUrl": "https://wallpapercave.com/wp/wp6408599.jpg"
+    }
+  ]
+}

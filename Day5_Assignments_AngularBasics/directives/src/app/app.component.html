@@ -1,0 +1,24 @@
+<div class="container mt-4">
+  <h2 class="text-primary">Angular Directives Example</h2>
+
+ <!-- *ngIf Example -->
+<button (click)="toggleVisibility()">Toggle Element</button>
+<div *ngIf="isVisible">This element is conditionally visible.</div>
+
+<!-- *ngFor Example -->
+<ul>
+  <li *ngFor="let item of items">{{ item }}</li>
+</ul>
+
+<h3 [ngClass]="{ 'highlight': isHighlighted, 'text-danger': !isHighlighted }">
+  Dynamic Styling with ngClass
+</h3>
+<button (click)="toggleHighlight()" class="btn btn-warning mt-2">
+  Toggle Highlight
+</button>
+
+</div>
+
+
+
+<router-outlet />

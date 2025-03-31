@@ -1,0 +1,15 @@
+<h1>IF Demo</h1>
+<div class="container">
+  <label>
+    <input type="radio" name="visibility" (click)="setVisibility(true)" />
+    Show the magic
+  </label>
+  <label>
+    <input type="radio" name="visibility" (click)="setVisibility(false)" />
+    Hide the magic
+  </label>
+  @if (isVisible) {
+    <p>This is the magic bhoo.....! 😉</p>
+  }
+</div>
+<router-outlet></router-outlet>

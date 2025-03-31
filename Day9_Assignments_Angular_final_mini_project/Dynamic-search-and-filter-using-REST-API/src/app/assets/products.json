@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "title": "Wireless Headphones",
+      "description": "Noise-canceling wireless headphones with great sound quality.",
+      "price": 99.99,
+      "image": "https://th.bing.com/th/id/OIP.FCB33TXqP_3eepbjjans_AHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "title": "Gaming Laptop",
+      "description": "High-performance gaming laptop with RGB keyboard.",
+      "price": 1299.99,
+      "image": "https://th.bing.com/th/id/OIP.plojNrBN44HH8oSysLvj1AAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+      "title": "Smartphone",
+      "description": "Latest model smartphone with stunning camera features.",
+      "price": 799.99,
+      "image": "https://th.bing.com/th/id/OIP.4OYWnhVW-KBGlQfjk4IAfwHaEs?rs=1&pid=ImgDetMain"
+    },
+    {
+      "title": "Smartwatch",
+      "description": "Feature-rich smartwatch with health tracking.",
+      "price": 199.99,
+      "image": "https://i1.wp.com/www.goodworklabs.com/wp-content/uploads/2016/06/apple-watch.jpg"
+    },
+    {
+      "title": "Mechanical Keyboard",
+      "description": "RGB backlit mechanical keyboard with fast response keys.",
+      "price": 149.99,
+      "image": "https://thekeeblog.com/wp-content/uploads/2020/04/pedro-costa-aXY5doQNZTc-unsplash-scaled.jpg"
+    },
+    {
+      "title": "Gaming Mouse",
+      "description": "Ergonomic gaming mouse with customizable DPI settings.",
+      "price": 49.99,
+      "image": "https://th.bing.com/th/id/OIP.BC2H5w0p_Ya-r8xd4sRTBgHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "title": "4K Monitor",
+      "description": "Ultra HD 4K monitor with high refresh rate and stunning visuals.",
+      "price": 399.99,
+      "image": "https://advanti.com/images/product/11081310314l.jpg"
+    },
+    {
+      "title": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker with deep bass and long battery life.",
+      "price": 89.99,
+      "image": "https://i5.walmartimages.com/asr/cdaaab64-5ea7-4d8f-969f-cff666244723.ff62693361b001ebbaf41145d23c0f13.jpeg"
+    },
+    {
+      "title": "External SSD",
+      "description": "Fast and compact external SSD with high storage capacity.",
+      "price": 179.99,
+      "image": "https://asset.conrad.com/media10/isa/160267/c1/-/en/002183045PI10/image.jpg"
+    },
+    {
+      "title": "Wireless Earbuds",
+      "description": "True wireless earbuds with noise cancellation and high-quality sound.",
+      "price": 129.99,
+      "image": "https://m.media-amazon.com/images/I/61PSwxcN8wL._AC_SL1500_.jpg"
+    }
+  ]
+}

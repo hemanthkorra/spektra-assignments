@@ -1,0 +1,43 @@
+/* Style the table with a border, width, and collapse borders */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  /* Style the table headers with background color and text color */
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Apply zebra striping to table rows */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Highlight table rows on hover */
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Style the parent component title */
+  p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  td {
+    background-image: linear-gradient(to right, #ffcc00, #ff6666);
+    color: white;
+  }
+  
+  
+  

@@ -1,0 +1,45 @@
+/* Table container styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Table header styling */
+  th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Table body styling */
+  td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Zebra striping for table rows */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Hover effect for table rows */
+  tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Table borders */
+  th, td {
+    border: 1px solid #ddd;
+  }
+  
+  /* Caption styling */
+  caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-style: italic;
+    color: #555;
+  }
+  

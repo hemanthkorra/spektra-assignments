@@ -1,0 +1,35 @@
+<div class="container">
+    <h2 class="mb-4">🛍️ Product List</h2>
+
+    <div class="row mt-4">
+      @for (product of products; track product.id) {
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img [src]="product.imageUrl" alt="{{ product.name }}" class="card-img-top img-fluid">
+            <div class="card-body text-center">
+              <h5 class="card-title">{{ product.name }}</h5>
+              <p class="card-text">${{ product.price }}</p>
+              <button (click)="viewDetails(product.id)" class="btn btn-outline-primary">View Details</button>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+
+    <form [formGroup]="productForm" (ngSubmit)="addProduct()" class="p-3 border rounded bg-light">
+      <h2>Add Product</h2>
+        <div class="mb-3">
+          <input formControlName="name" class="form-control" placeholder="Product Name" required />
+        </div>
+        <div class="mb-3">
+          <input formControlName="price" type="number" class="form-control" placeholder="Price" required />
+        </div>
+        <div class="mb-3">
+          <input formControlName="description" class="form-control" placeholder="Description" required />
+        </div>
+        <div class="mb-3">
+          <input formControlName="imageUrl" class="form-control" placeholder="Image URL" required />
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Add Product</button>
+      </form>
+  </div>

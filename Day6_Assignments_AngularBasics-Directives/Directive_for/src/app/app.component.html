@@ -1,0 +1,24 @@
+<h1>For Demo</h1>
+<div class="container">
+  <label for="favoriteDishesInput">Favorite Dishes</label>
+  <input
+    id="favoriteDishesInput"
+    type="text"
+    [(ngModel)]="favoriteDishInput"
+    placeholder="Enter your favorite dishes, separated by commas"
+    required
+  />
+  <button (click)="addFavoriteDishes()">Display</button>
+  <ul>
+      @for (dish of favoriteDishes; track dish) {
+        <li>{{ dish }}</li>
+      } @empty {
+        <li>No favorite dishes added yet.</li>
+      }
+  </ul>
+  
+</div>
+<router-outlet></router-outlet>
+
+<!-- Track allows Angular to uniquely identify each item in a collection, 
+ enabling efficient updates when items are added, removed, or reordered -->

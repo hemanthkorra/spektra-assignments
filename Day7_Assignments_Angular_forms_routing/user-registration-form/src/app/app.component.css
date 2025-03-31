@@ -1,0 +1,95 @@
+/* Background styling */
+body {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Form Container */
+  .container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* Headings */
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Input Fields */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Input Focus Effect */
+  input:focus {
+    border-color: #2575fc;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(37, 117, 252, 0.5);
+  }
+  
+  /* Error Messages */
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Submit Button */
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #2575fc;
+    border: none;
+    border-radius: 6px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  /* Button Hover Effect */
+  button[type="submit"]:hover {
+    background: #1b5cd5;
+  }
+  
+  /* Disable Button Style */
+  button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Success Message */
+  p {
+    text-align: center;
+    font-weight: bold;
+    color: green;
+    margin-top: 15px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .container {
+      width: 90%;
+      padding: 20px;
+    }
+  }
+  

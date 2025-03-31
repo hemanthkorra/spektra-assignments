@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding-top: 20px;
+  }
+  
+  /* Product Form */
+  form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  form input {
+    margin-bottom: 10px;
+  }
+  
+  /* Product List */
+  .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .card-body {
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+  }
+  
+  .btn {
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background: #007bff;
+    color: white;
+  }
+  

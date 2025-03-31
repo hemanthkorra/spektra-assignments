@@ -1,0 +1,17 @@
+<div class="container details-container">
+    <h2 class="text-center">Person Details</h2>
+  
+    @if (person) {
+      <div class="card details-card">
+        <div class="card-body">
+          <h4 class="card-title text-primary">{{ person.name }}</h4>
+          <p class="card-text"><strong>Technology:</strong> {{ person.technology }}</p>
+          <p class="card-text"><strong>Details:</strong> {{ person.details }}</p>
+          <button class="btn btn-primary" routerLink="/deartment">Back to List</button>
+        </div>
+      </div>
+    } @else {
+      <p class="text-danger text-center">Person not found!</p>
+    }
+  </div>
+  

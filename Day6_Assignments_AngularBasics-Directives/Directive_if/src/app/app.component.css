@@ -1,0 +1,38 @@
+/* Container styling */
+.container {
+    background-color: #f0f8ff; /* Light blue background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* Header styling */
+  h1 {
+    color: #4b0082; /* Indigo color */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Label styling */
+  label {
+    font-size: 1.2em;
+    color: #2f4f4f; /* Dark slate gray */
+  }
+  
+  /* Input styling */
+  input[type="radio"] {
+    margin-left: 10px;
+    accent-color: #ff4500; /* Orange-red */
+  }
+  
+  /* Paragraph styling */
+  p {
+    font-size: 1.1em;
+    color: #006400; /* Dark green */
+    background-color: #e6ffe6; /* Light green background */
+    padding: 10px;
+    border: 2px dashed #006400;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,28 @@
+<h1>Product List</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>ID</th>
+      <th>Quantity</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (item of product; track item.id) {
+      <tr>
+        <td>{{ item.name }}</td>
+        <td>{{ item.id }}</td>
+        <td>{{ item.qty }}</td>
+        <td>{{ item.price }}</td>
+      </tr>
+    } @empty {
+      <tr>
+        <td colspan="4">No products available.</td>
+      </tr>
+    }
+  </tbody>
+</table>
+
+<app-other [product_price]="con_price" [product_quantity]="con_qty"></app-other>
+<router-outlet></router-outlet>

@@ -1,0 +1,58 @@
+/* Container styling */
+div {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Label styling */
+  label {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  /* Dropdown styling */
+  select {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  select:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Message box styling */
+  .message-box {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    color: #fff;
+  }
+  
+  .message-box.india {
+    background-color: #ff5733; /* India - Orange */
+  }
+  
+  .message-box.china {
+    background-color: #ffcc00; /* China - Yellow */
+  }
+  
+  .message-box.korea {
+    background-color: #1e90ff; /* Korea - Blue */
+  }
+  
+  .message-box.default {
+    background-color: #6c757d; /* Default - Gray */
+  }
+
+  h1{
+    color: #007bff;
+  }
+  

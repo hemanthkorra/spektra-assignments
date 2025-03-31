@@ -1,0 +1,29 @@
+<div class="container mt-5">
+    <h2 class="text-center mb-4 text-white">Technical People Portfolio</h2>
+  
+    <div class="table-responsive">
+      <table class="table custom-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Technology</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (person of people; track person.id) {
+            <tr>
+              <td>{{ person.name }}</td>
+              <td>{{ person.technology }}</td>
+              <td>
+                <button class="btn btn-light btn-sm" (click)="onselect(person)">
+                  View Details
+                </button>
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+  </div>
+  

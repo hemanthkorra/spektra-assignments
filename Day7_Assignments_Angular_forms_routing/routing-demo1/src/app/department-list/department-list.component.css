@@ -1,0 +1,53 @@
+/* Background & Container Styling */
+.container {
+    background: linear-gradient(to right, #1e3c72, #2a5298); /* Professional Blue Gradient */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Table Styling */
+  .custom-table {
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .custom-table thead {
+    background: #0d47a1; /* Dark Blue Header */
+    color: white;
+  }
+  
+  .custom-table th, .custom-table td {
+    padding: 12px;
+    text-align: center;
+    border: 2px solid #1e3c72; /* Border for professional look */
+  }
+  
+  /* Table Row Hover Effect */
+  .custom-table tbody tr {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .custom-table tbody tr:hover {
+    background: #bbdefb; /* Light Blue Hover */
+    transform: scale(1.02);
+  }
+  
+  /* Button Styling */
+  .btn-light {
+    background-color: #64b5f6;
+    color: white;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .btn-light:hover {
+    background-color: #1565c0;
+    transform: scale(1.05);
+  }
+  

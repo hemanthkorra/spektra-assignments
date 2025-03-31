@@ -1,0 +1,14 @@
+<div class="container mt-5">
+    <div class="card p-4 shadow-lg">
+        <h2 class="text-center text-primary">Two-Way Data Binding Demo</h2>
+        
+        <div class="mb-3">
+            <label for="nameInput" class="form-label fw-bold">Enter Your Name:</label>
+            <input type="text" id="nameInput" class="form-control border-primary" [(ngModel)]="name" placeholder="Type your name here...">
+        </div>
+
+        <div class="alert alert-info text-center fw-bold">
+            Hello, <span class="text-success">{{ name }}</span>!
+        </div>
+    </div>
+</div>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Survey Form</h1>
+    <form method="post">
+        <label for="name" id="name">Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="Name" id="Name" placeholder="Enter Your name" required><br><br>
+        <label for="Age">Age:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="age" id="age" placeholder="Enter ur age"><br><br>
+        <label for="mail">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" name="mail" id="mail" placeholder="Enter ur mail"><br><br>
+        <label for="number">Mobile No:</label>
+        <input type="number" placeholder="Enter ur mobile Number"><br><br>
+        <label for="Date">Date:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="date"><br><br>
+        <div>
+            <label for="Technologies">Tick the technologies you are familiar with:</label>
+            <br><br>
+            <input type="checkbox"><label for="c">C</label>
+            <input type="checkbox"><label for="Java">Java</label>
+            <input type="checkbox"><label for="Python">Python</label>
+            <input type="checkbox"><label for="Full Stack">Full Stack</label>
+            <input type="checkbox"><label for="Cloud">Cloud Computing</label><br><br>
+
+        </div>
+        <div>
+            <label for="Technologies">Select the Rating for Internship:</label>
+            <br><br>
+            <input type="radio" name="Rating"><label for="Bad">Bad</label>
+            <input type="radio" name="Rating"><label for="Average">Average</label>
+            <input type="radio" name="Rating"><label for="Good">Good</label>
+            <input type="radio" name="Rating"><label for="Excellent">Excellent</label><br><br>
+        </div>
+        <div>
+            <label for="Trainer">Choose the Trainer: </label>
+            <select name="Trainer" id="Trainer">
+                <option value="Select">--Select--</option>
+                <option value="Trainer1">Trainer1</option>
+                <option value="Trainer2">Trainer2</option>
+            </select>
+        </div><br>
+        <input type="submit" name="sub" id="sub">
+    </form>
+</body>
+</html>

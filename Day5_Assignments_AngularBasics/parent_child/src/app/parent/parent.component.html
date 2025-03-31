@@ -1,0 +1,3 @@
+<p>parent works!</p>
+<app-child [usernames]="username" (notify)="parentmethod($event)"></app-child>
+<p>Received from Child: {{ childdata }}</p>

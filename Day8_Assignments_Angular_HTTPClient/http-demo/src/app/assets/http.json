@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Hemanth",
+      "password": "hemanth"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "password": "jane"
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "password": "michael"
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "password": "emily"
+    },
+    {
+      "id": 5,
+      "name": "William Brown",
+      "password": "william"
+    },
+    {
+      "id": 6,
+      "name": "Hemanth",
+      "password": "hemanth"
+    }
+  ]
+}
